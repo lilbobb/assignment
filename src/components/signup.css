@@ -1,0 +1,22 @@
+
+.form{
+  margin: 50px auto;
+  max-width: 100%;
+}
+
+footer{
+  font-size: .7em;
+  margin-top: 60px;
+}
+
+.footerlink{
+  text-decoration: none;
+  color: rgb(14, 12, 60);
+}
+
+@media (max-width: 400px){
+  .form{
+    margin: 50px auto;
+    max-width: 100%;
+  }
+}
