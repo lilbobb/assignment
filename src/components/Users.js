@@ -5,9 +5,9 @@ import RandomUsers from "./RandomUser";
 const Users = () => {
   return (
     <div className="Signup-page">
-     <NavBar />
+      <NavBar />
       <div>
-      <RandomUsers/>
+        <RandomUsers />
       </div>
     </div>
   );

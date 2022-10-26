@@ -13,7 +13,7 @@ class ErrorHandler extends React.Component {
 
   render() {
     return this.state.hasError ? (
-      <h1>Something Went Wrong!</h1>
+      <h1 style={{ color: "red" }}>OOPs! Something Went Wrong!</h1>
     ) : (
       this.props.children
     );

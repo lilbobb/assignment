@@ -1,19 +1,10 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
-
   return (
     <div className="navbar">
-      <div className="navlink">
-        <NavLink className="toggle-btn">
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </NavLink>
-      </div>
-
+    <div className="brand">BobTech</div>
       <nav>
         <Link to="/" className="pages">
           Home
@@ -25,7 +16,7 @@ const NavBar = () => {
           Signup
         </Link>
         <Link to="/Login" className="pages">
-          Login
+          Signin
         </Link>
         <Link to="/Users" className="pages">
           Users
