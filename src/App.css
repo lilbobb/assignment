@@ -39,11 +39,12 @@ body {
 .navbar nav {
   display: flex;
   justify-content: flex-end;
+  max-width: 400px;
 }
 
 .pages {
-  color: #ffffff;
-  max-width: 125px;
+  color: #e5e5e5;
+  max-width: 30%;
   margin: 10px;
   text-decoration: none;
   padding: 10px;
@@ -87,7 +88,8 @@ body {
 
 .pages:hover {
   background-color: #446;
-  transition: 0.5s;
+  transition: 0.6s;
+  font-weight: bold;
 }
 
 .form-container {
