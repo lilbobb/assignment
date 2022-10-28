@@ -1,3 +1,9 @@
+.Signup-page{
+  width: 100%;
+  max-width: 100%;
+  margin:0 auto;
+}
+
 .form {
   margin: 50px auto;
   max-width: 90%;
@@ -13,9 +19,11 @@ footer {
   color: rgb(14, 12, 60);
 }
 
+
 @media (max-width: 400px) {
   .form {
     margin: 50px auto;
     max-width: 100%;
   }
+ 
 }

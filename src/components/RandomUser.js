@@ -64,7 +64,7 @@ const RandomUsers = () => {
           </button>
           <button
             className="btn"
-            disabled={page >= currentUsers - 1}
+            disabled={page >= currentUsers.length - 1}
             aria-disabled={page >= currentUsers - 1}
             onClick={() => setPage((prev) => prev + 1)}
           >
