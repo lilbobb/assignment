@@ -2,8 +2,7 @@ nav .paginate{
   display: flex;
   flex-direction: row;
   max-width: 300px;
-  margin: 0;
-  
+  margin: auto;
 }
 
 .paginate button {
@@ -12,9 +11,11 @@ nav .paginate{
   background-color: rgb(88, 122, 149);
   padding: 5px;
 }
+
 .paginate button:hover {
   background-color: rgb(128, 154, 176);
 }
+
 .paginate a {
   color: #fff;
   text-decoration: none;
