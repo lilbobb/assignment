@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
+// import "./hambuger.png"
+
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -24,7 +26,7 @@ const NavBar = () => {
           Users
         </Link>
       </nav>
-    <button id="navbar-btn" onClick={()=>setShowMenu(!showMenu)} >Open Menu</button>
+    <img src={require ("../hambuger.png")} id="navbar-btn" onClick={()=>setShowMenu(!showMenu)} />
   {
     showMenu && (
       <nav className="mobileNav">

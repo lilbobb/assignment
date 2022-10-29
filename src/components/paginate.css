@@ -1,15 +1,16 @@
-.paginate {
+nav .paginate{
   display: flex;
   flex-direction: row;
-  max-width: 400px;
-  margin: auto;
+  max-width: 300px;
+  margin: 0;
+  
 }
 
 .paginate button {
   margin: 5px;
   border-radius: 2px;
   background-color: rgb(88, 122, 149);
-  padding: 10px;
+  padding: 5px;
 }
 .paginate button:hover {
   background-color: rgb(128, 154, 176);
@@ -19,11 +20,7 @@
   text-decoration: none;
   font-weight: 600;
 }
-nav .paginate {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .btn {
   width: 100px;

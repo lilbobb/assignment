@@ -24,10 +24,10 @@ body {
   display: flex;
   justify-content: space-between;
   flex-flow: nowrap;
+  padding: 20px;
 }
 
 .brand{
-  margin: 10px;
   color: #ccc;
   font-style: oblique;
   font-size: 1.2rem;
@@ -36,7 +36,8 @@ body {
   padding: 5px;
   max-width: 100px;
   max-height: 40px;
-  top: -10px;
+  height: 200px;
+  
 }
 
 .navbar nav {

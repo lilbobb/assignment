@@ -2,14 +2,7 @@
   background-color: #e5e5e5;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-}
-
-.container .paginate {
-  justify-content: center;
-  align-items: center;
 }
 
 .container-grand-child {
