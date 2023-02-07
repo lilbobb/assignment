@@ -26,7 +26,7 @@ const NavBar = () => {
           Users
         </Link>
       </nav>
-    <img src={require ("../hambuger.png")} id="navbar-btn" onClick={()=>setShowMenu(!showMenu)} />
+    <img src={require ("../hambuger.png")} id="navbar-btn" alt="" onClick={()=>setShowMenu(!showMenu)} />
   {
     showMenu && (
       <nav className="mobileNav">

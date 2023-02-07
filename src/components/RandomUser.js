@@ -6,9 +6,9 @@ import Pagination from "./Pagination";
 const RandomUsers = () => {
   const [data, setData] = useState([]);
   const [loadiing, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [ , setError] = useState("");
   const [page, setPage] = useState(1);
-  const [usersPerPage, setUsersPerPage] = useState(10);
+  const [usersPerPage] = useState(10);
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -57,7 +57,6 @@ const RandomUsers = () => {
             className="btn"
             disabled={page <= 1}
             aria-disabled={page >= 1}
-
             onClick={() => setPage((prev) => prev - 1)}
           >
             Prev
@@ -70,6 +69,7 @@ const RandomUsers = () => {
           >
             Next
           </button>
+          F
           <Pagination
             single={usersPerPage}
             total={data.length}

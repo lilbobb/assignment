@@ -1,4 +1,4 @@
-nav .paginate{
+nav .paginate {
   display: flex;
   flex-direction: row;
   max-width: 300px;
@@ -21,7 +21,6 @@ nav .paginate{
   text-decoration: none;
   font-weight: 600;
 }
-
 
 .btn {
   width: 100px;
